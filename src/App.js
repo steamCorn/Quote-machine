@@ -1,10 +1,11 @@
-import './App.css';
+import QuotesBlock from './conponent/QuotesBlock';
 
 function App() {
-  return (
-    <div className="App">
-    </div>
-  );
+    return (
+        <div>
+            <QuotesBlock />
+        </div>
+    );
 }
 
 export default App;
