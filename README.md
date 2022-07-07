@@ -23,8 +23,7 @@ How to start a project
 The first step is **to clone the repository**. To do this, type the following command
 
 ```bash
-git clone https://github.com/steamCorn/Quote-machine
-.git
+git clone https://github.com/steamCorn/Quote-machine.git
 ```
 
 Next go to **React-Calculator** folder
