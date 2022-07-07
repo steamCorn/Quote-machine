@@ -10,7 +10,7 @@
 :root {
     --border-radius-qb: 0.5rem;
     --margin-context-qb: 1.5rem auto;
-    --font-size-qb: 1.5em;
+    --font-size-qb: 2em;
 }
 
 .pageQuote {
@@ -21,14 +21,14 @@
     align-items: center;
 }
 
-#titel,
-.footer {
+#titel {
     font-size: 2rem;
     position: relative;
     color: white;
     text-align: center;
     margin: 0 auto 2rem auto;
 }
+
 
 #quote-box {
     display: grid;
@@ -58,6 +58,7 @@
     font-size: var(--font-size-qb);
     text-align: right;
     font-weight: 600;
+    font-size: 1.5rem;
 }
 
 .buttons-quote {
@@ -109,6 +110,13 @@ footer {
 }
 
 /*  This style will needed if sharing-buttons inside block  */
+.footer {
+  font-size: 1rem;
+  position: relative;
+  color: white;
+  text-align: center;
+  margin: 0 auto 2rem auto;
+}
 /*
 .footer a{
   text-decoration: none;
